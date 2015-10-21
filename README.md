@@ -16,6 +16,7 @@ ExJSF
 
 https://computacaoanotada.wordpress.com/2011/07/15/aplicacao-ejb-3-1-jsf2-primefaces-3-0-maven-parte-1/
 
--Primeiro criei um repositório no Github
--Criei meus projetos e fiz o commit e o push no git
--No wildfly criei JMS (QUEUE e TOPIC)
+- Primeiro criei um repositório no Github; 
+- Criei meus projetos e fiz o commit e o push no git; 
+- No wildfly criei JMS (QUEUE e TOPIC {alunoQueue/professorTopic}); 
+- 
