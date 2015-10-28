@@ -1,4 +1,4 @@
-package br.univel.cdi;
+package exercise2;
 
 import java.util.List;
 
@@ -6,12 +6,15 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import br.univel.cdi.Item;
+import br.univel.cdi.ItemDAO;
+
 @Named
 @RequestScoped
 
 public class ItemProcessor {
 
-		@Inject
+		@Inject	
 		 private ItemDAO itemDao;
 
 		    public void execute() {
